@@ -1,0 +1,4 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Einführung}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}First}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Second}{1}{subsection.1.2}%

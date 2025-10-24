@@ -1,0 +1,55 @@
+\documentclass[12pt, a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{abstract}
+\usepackage{lipsum}
+\usepackage{hyperref}
+
+\addto\captionsngerman{
+ \renewcommand{\abstractname}{\Large Abstract}}
+
+\geometry{top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm}
+\setlength{\headheight}{15pt}
+\setlength{\parindent}{0pt}
+
+\onehalfspacing
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue,
+    citecolor=black,
+    pdfborder={0 0 0}, 
+}
+
+\begin{document}
+
+\include{Silbentrenung}
+
+\newgeometry{top=0cm, bottom=0cm, left=0cm, right=0cm} 
+
+\include{Kapitel/Titelseite}
+
+\restoregeometry 
+
+\pagenumbering{roman}
+
+\newpage
+
+\tableofcontents
+\newpage
+\listoffigures
+\listoftables
+
+\newpage
+
+\pagenumbering{arabic}
+
+\include{Kapitel/Einfuehrung}
+
+\end{document}
